@@ -1,5 +1,9 @@
-### O Git Bash é um terminal estendido para otimizar o uso do Git :computer:
+# DESAFIO DE PROJETO DE GIT/GITHUB DO BOOTCAMP LINUX EXPERIENCE
 
-#contratodecompromisso
+Foi uma experiência muito bacana,  ter meu primeiro contato com Git e Github através do bootcamp Linux Experience e aprender tanto em tão pouco tempo, entrei na área de tecnologia a pouco tempo, mas estou empolgado com o meu desenvolvimento e com que estou aprendendo, tanto na faculdade , quanto nos bootcamps da DIO.
 
-DIO 
+#desafiodeprojetoentregue
+
+#contratodecompromisso 
+
+#DIOnocomando
