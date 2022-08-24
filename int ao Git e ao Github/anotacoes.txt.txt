@@ -2,8 +2,84 @@
 
 Foi uma experiência muito bacana,  ter meu primeiro contato com Git e Github através do bootcamp Linux Experience e aprender tanto em tão pouco tempo, entrei na área de tecnologia a pouco tempo, mas estou empolgado com o meu desenvolvimento e com que estou aprendendo, tanto na faculdade , quanto nos bootcamps da DIO.
 
+### Comandos que desenvolvi no Git Bash.
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO
+$ git clone https://github.com/joabe2019/desafio-git-dio.git
+Cloning into 'desafio-git-dio'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO
+$ cd desafio-git-dio
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO/desafio-git-dio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO/desafio-git-dio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        int ao Git e ao Github/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO/desafio-git-dio (main)
+$ git add .
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO/desafio-git-dio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   int ao Git e ao Github/anotacoes.txt.txt
+
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO/desafio-git-dio (main)
+$
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO/desafio-git-dio (main)
+$ git commit -m "inclusao das anotacoes do curso de Git/Github"
+[main 582382a] inclusao das anotacoes do curso de Git/Github
+ 1 file changed, 2 insertions(+)
+ create mode 100644 int ao Git e ao Github/anotacoes.txt.txt
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO/desafio-git-dio (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO/desafio-git-dio (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 443 bytes | 73.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/joabe2019/desafio-git-dio.git
+   b09b7a3..582382a  main -> main
+
+trevotech@DESKTOP-1UELT2O MINGW64 /c/DIO/desafio-git-dio (main)
+$
+
 #desafiodeprojetoentregue
 
 #contratodecompromisso 
 
-#DIOnocomando
+#DIOnocomando :man_technologist:
